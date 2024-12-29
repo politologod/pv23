@@ -1,8 +1,11 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "../css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 import Script from "next/script";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
+import FloatingCartButton from "@/components/floatingCartButton/FloatingCartButton";
 
 
 const geistSans = Geist({
@@ -35,6 +38,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Navbar />
         {children}
+        <FloatingCartButton cartCount={3}/>
         <Footer />
 
       </body>
