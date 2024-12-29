@@ -4,7 +4,7 @@ const HeroCarousel = () => {
     return(
         <div className="carousel slide" data-bs-ride="carousel" id="carousel-1" style={{height: "600px"}}>
         <div className="carousel-inner h-100">
-            <div className="carousel-item active h-100"><Image className="w-100 d-block position-absolute h-100 fit-cover" src="/" height={50} width={100} alt="Slide Image" style={{zIndex: -1}} />
+            <div className="carousel-item active h-100"><Image className="w-100 d-block position-absolute h-100 fit-contain" src={"https://res.cloudinary.com/dzg6yhqzx/image/upload/v1735451531/Hero_cvkozc.jpg"} height={"100"} width={"100"} alt="Slide Image" style={{zIndex: -1}} />
                 <div className="container d-flex flex-column justify-content-center h-100">
                     <div className="row">
                         <div className="col-md-6 col-xl-4 offset-md-2">
