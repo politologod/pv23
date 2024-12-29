@@ -23,17 +23,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
+
+      <head>
+      <Script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        crossOrigin="anonymous"
+        strategy="beforeInteractive"
+      />
+      </head>
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Navbar />
         {children}
         <Footer />
 
       </body>
-      <Script 
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-        crossOrigin="anonymous"
-        strategy="beforeInteractive"
-      />
+
     </html>
   );
 }
