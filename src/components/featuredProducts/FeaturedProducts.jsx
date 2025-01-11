@@ -26,7 +26,7 @@ const FeaturedProducts = () => {
                 >
                     <img
                         className="card-img-top w-100 d-block"
-                        src="https://via.placeholder.com/100"
+                        src="https://res.cloudinary.com/dzg6yhqzx/image/upload/v1728779120/images/ltr15_1728779120943.jpg"
                         alt="Card Image"
                         style={{ borderRadius: "15px 15px 0 0" }}
                     />

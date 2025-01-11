@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="text-center py-4">
-        <div className="container">
-            <div className="row row-cols-1 row-cols-lg-3">
+        <footer className="text-center bg-body py-4">
+        <div className="container ">
+            <div className="row row-cols-1  row-cols-lg-3">
                 <div className="col">
                     <p className="text-muted my-2">Copyright&nbsp;© 2025 Pura Vida 23 C.A</p>
                 </div>
