@@ -2,9 +2,9 @@ import "../css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 import Script from "next/script";
-import Footer from "@/components/footer/Footer";
-import Navbar from "@/components/navbar/Navbar";
-import FloatingCartButton from "@/components/floatingCartButton/FloatingCartButton";
+import Footer from "@/universalComponents/footer/Footer";
+import Navbar from "@/universalComponents/navbar/Navbar";
+import FloatingCartButton from "@/universalComponents/floatingCartButton/FloatingCartButton";
 
 export const metadata = {
 	title: "PURAVIDA23 Tienda Online",
