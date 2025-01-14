@@ -2,7 +2,7 @@ button {
 	--c: #fff; /* Text color */
 	background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%)
 			var(--_p, 100%) / 300% no-repeat,
-		#004dff; /* Background color */
+		#80ff00c2; /* Background color */
 	color: #0000;
 	border: none;
 	transform: perspective(500px) rotateY(calc(20deg * var(--_i, -1)));
