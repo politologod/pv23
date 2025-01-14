@@ -1,7 +1,7 @@
 import React from "react";
 import "./switchButton.css";
 
-const ToggleSwitch = () => {
+const SwitchButton = () => {
     return (
         <div className="toggleWrapper">
             <input
@@ -22,4 +22,4 @@ const ToggleSwitch = () => {
     );
 };
 
-export default ToggleSwitch;
+export default SwitchButton;
