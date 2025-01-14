@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-md fixed-top bg-body py-3">
+        <nav className="navbar navbar-expand-md sticky-top bg-body py-3">
             <div className="container">
                 <Link className='navbar-brand d-flex align-items-center justify-content-start' href="/">
                     <Image className="ms-2" src={"https://res.cloudinary.com/dzg6yhqzx/image/upload/v1728285779/puravida-horizontal_gvztc1.svg"} width={250} height={50} alt="Logo" />
