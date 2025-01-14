@@ -1,6 +1,6 @@
 import React from "react";
-
-
+import Image from "next/image";
+import Link from "next/link";
 const ProductsList = () => {
     const cards = Array(9).fill({
         imgSrc: "https://cdn.bootstrapstudio.io/placeholders/1400x800.png",
@@ -15,16 +15,19 @@ const ProductsList = () => {
                 {cards.map((card, index) => (
                     <div className="col" key={index}>
                         <div>
-                            <img
-                                className="rounded img-fluid d-block w-100 fit-cover"
-                                style={{ height: "200px" }}
-                                src={card.imgSrc}
-                                alt={card.title}
-                            />
-                            <div className="py-4">
-                                <h4>{card.title}</h4>
-                                <p>{card.description}</p>
-                            </div>
+                            <Link href="/product">
+                                <Image
+                                    className="rounded img-fluid d-block w-100 fit-cover"
+                                    width={1400}
+                                    height={800}
+                                    src={card.imgSrc}
+                                    alt={card.title}
+                                />
+                                <div className="py-4">
+                                    <h4>{card.title}</h4>
+                                    <p>{card.description}</p>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 ))}
